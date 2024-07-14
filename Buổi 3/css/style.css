@@ -1,0 +1,56 @@
+*{
+    font-family: "Varela Round", sans-serif;
+}
+
+body{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+header{
+    height: 0px;
+}
+
+main{
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+}
+
+h1, h3, pre, ul, blockquote{
+    margin: 0px;
+}
+
+h1{
+    color: rgb(242, 157, 0);
+}
+
+h3{
+    text-align: center;
+    padding-right: 180px;
+}
+
+#content{
+    width: 60%;
+}
+
+ul{
+    li{
+        a{
+            outline: none;
+        }
+    }
+}
+
+#avatar{
+    width: 40%;
+    overflow: hidden;
+}
+
+#avatar img{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    border-radius: 50%;
+}
