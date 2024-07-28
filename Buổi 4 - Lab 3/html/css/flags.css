@@ -9,9 +9,9 @@ body{
     gap: 20px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .flag-group{
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
     }
 }
 
