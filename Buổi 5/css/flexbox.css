@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+
+#flexbox{
+    background-color: red;
+    display: flex;
+}
+
+.sus{
+    height: 100px;
+    background-color: aqua;
+}
+
+.w-1 {width: 100px; height: 100px;}
+.w-2 {width: 200px; height: 200px;}
+.w-3 {width: 300px; height: 300px;}
+.w-4 {width: 400px; height: 400px;}
+
+/*! Flex Direction */
+#flexbox{
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    flex-direction: column;
+}
+
+/*! Flex Wrap */
+#flexbox{
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+}
+
+/*! Flex Flow */
+#flexbox{
+    /* flex-flow: <flex-direction properties> <wrap properties>; */
+}
+
+/*! Justify Content */
+#flexbox{
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+}
+
+/*! Align Items */
+#flexbox{
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+
+    /* align-items: start; */
+    /* align-items: end; */
+    align-items: center;
+}
