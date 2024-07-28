@@ -1,0 +1,26 @@
+#inline, #inline-block, #block, #none {
+    background-color: red;
+    /* padding: 20px; */
+    width: 100px;
+    height: 100px;
+}
+
+/*! Không chỉnh width, height */
+#inline { 
+    display: inline;
+}
+
+/*! Chỉnh height, width (không xuống hàng) */
+#inline-block {
+    display: inline-block;
+}
+
+/*! Chỉnh height, width (xuống hàng) */
+#block {
+    display: block;
+}
+
+/*! Ẩn component */
+#none {
+    display: none;
+}
