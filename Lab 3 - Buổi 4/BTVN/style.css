@@ -31,13 +31,17 @@ body{
 .cards{
     position: relative;
     top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .card{
-    width: 500px;
+    width: 360px;
     border-radius: 20px;
     position: relative;
-    margin: 30px;
+    margin: 20px;
 }
 
 .image{
@@ -66,7 +70,7 @@ body{
     
     position: absolute;
     bottom: 25px;
-    right: 40px;
+    right: 25px;
 }
 
 span{
