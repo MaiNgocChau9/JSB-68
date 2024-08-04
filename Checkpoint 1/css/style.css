@@ -47,6 +47,12 @@ a{
     margin: 0;
 }
 
+.ki_nang{
+    border: 2px solid #173B45;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
 .scroll-up{
     position: fixed;
     bottom: 50px;
