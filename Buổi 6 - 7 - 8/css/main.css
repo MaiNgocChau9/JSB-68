@@ -1,0 +1,20 @@
+/** Đặt biến **/
+:root{
+    --colored-bg: #5E5E5E;
+    --colored-text: #000000;
+    --light-text: #939393;
+    --light-bg: #FFFFFF;
+}
+
+/** Full page */
+body{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/** Color section  */
+.colored-section{
+    background-color: var(--colored-bg);
+    color: var(--colored-text);
+}
