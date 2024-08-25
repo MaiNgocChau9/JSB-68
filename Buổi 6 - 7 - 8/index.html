@@ -264,8 +264,25 @@
             ></textarea>
           </div>
 
-          <button type="submit" class="btn btn-primary" id="contact_submit">Submit</button>
+          <button type="submit" class="btn btn-primary" id="contact_submit" onclick="checkForm">Submit</button>
         </form>
+        <script>
+          function checkForm(e) {
+            e.preventDefault(); // chan lai luong hoat dong mac dinh
+            const email_default = "abc@gmail.com";
+            const user_email = document.getElementById("user_email").value;
+            const user_email1 = document.querySelector("#user_email").value;
+
+            if (email_default === user_email) {
+              // chuyen trang
+              // window.location.href = "./abc.html";
+              window.location.href = "www.google.com";
+            }
+            else {
+              alert("Loi khong giong email");
+            }
+          }
+        </script>
       </section>
       </section>
     </main>
