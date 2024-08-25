@@ -1,6 +1,6 @@
 # Thẻ Form trong HTML
 
-### Cú pháp thẻ `form`:
+#### Cú pháp thẻ `form`:
 
 ```html
 <form action="" method="">
